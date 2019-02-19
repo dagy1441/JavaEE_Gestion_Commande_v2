@@ -22,6 +22,7 @@ public class Commande {
     public Commande() {
     }
 
+
     public Client getClient() {
         return client;
     }

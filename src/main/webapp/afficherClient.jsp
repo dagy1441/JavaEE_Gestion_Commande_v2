@@ -19,11 +19,11 @@
         <div class="corps">
             <p class="info">${message}</p>
             <c:if test="${!erreur}">
-                <p>Nom : <c:out value="client.nom"/></p>
-                <p>Prenom : <c:out value="client.prenom"/></p>
-                <p>Adresse : <c:out value="client.adresse"/></p>
-                <p>Numero de telephone : <c:out value="client.telephone"/></p>
-                <p>Email : <c:out value="client.email"/></p>
+                <p>Nom : <c:out value="${client.nom}"/></p>
+                <p>Prenom : <c:out value="${client.prenom}"/></p>
+                <p>Adresse : <c:out value="${client.adresse}"/></p>
+                <p>Numero de telephone : <c:out value="${client.telephone}"/></p>
+                <p>Email : <c:out value="${client.email}"/></p>
             </c:if>
         </div>
     </body>

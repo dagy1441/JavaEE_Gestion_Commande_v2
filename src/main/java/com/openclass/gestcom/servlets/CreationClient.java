@@ -7,9 +7,7 @@ package com.openclass.gestcom.servlets;
 
 import com.openclass.gestcom.beans.Client;
 import java.io.IOException;
-import java.io.PrintWriter;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -36,6 +34,8 @@ public class CreationClient extends HttpServlet {
      * Redefinition de la methode doGet
      * @param request, 
      * @param response,
+     * @throws javax.servlet.ServletException
+     * @throws java.io.IOException
      **/
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -81,7 +81,6 @@ public class CreationClient extends HttpServlet {
         
         /**Transmission a la page JSP en charge de l'affichage des donnees**/
         this.getServletContext().getRequestDispatcher(VUE).forward(request, response);
-    
     
     }
 

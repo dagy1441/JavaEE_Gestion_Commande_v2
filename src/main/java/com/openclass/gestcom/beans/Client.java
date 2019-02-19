@@ -20,6 +20,8 @@ public class Client {
     public Client() {
     }
 
+    
+
     public String getNom() {
         return nom;
     }

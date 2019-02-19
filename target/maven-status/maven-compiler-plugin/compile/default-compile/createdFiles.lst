@@ -1,0 +1,4 @@
+com\openclass\gestcom\servlets\CreationCommande.class
+com\openclass\gestcom\servlets\CreationClient.class
+com\openclass\gestcom\beans\Client.class
+com\openclass\gestcom\beans\Commande.class

@@ -47,6 +47,10 @@ public class CreationCommande extends HttpServlet {
 
     /**
      *
+     * @param request
+     * @param response
+     * @throws javax.servlet.ServletException
+     * @throws java.io.IOException
      */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
