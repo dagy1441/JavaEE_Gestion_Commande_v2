@@ -5,13 +5,9 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<div id="menu">
+    <p><a href="<c:url value="/creerClient.jsp"/>">Creer un nouveau client</a></p>
+    <p><a href="<c:url value="/creerCommande.jsp"/>">Creer une nouvelle Commande</a></p>
+</div>
